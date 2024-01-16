@@ -1,9 +1,7 @@
 // Code your solution here
 const drivers = ["Bobby", "Sammy", "Sally", "Annette", "Sarah", "Bobby"];
 
-const findMatching = drivers.find(function (element) {
-  return element === "Bobby";
-});
+const findMatching = drivers.find((element) => element === "Bobby");
 
 const findSusan = drivers.find(function (element) {
   return element === "Susan";
